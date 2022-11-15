@@ -11,23 +11,25 @@
 <body>
   <script>
     // function scoped
-    var first = 'wes';
+    let first = 'monelle';
     // block scoped
-    let age = 300;
-    let cool = true;
+    const age = 44;
+    const hungry = true;
+    console.log(age);
 
-    const Dog = 'bowser';
+    if (age > 25) {
+      console.log(age, 'You are OLD');
+    }
+
+    first = 'mo';
 
     // camel case
     const iLovePizza = true;
     // UpperCamelCase
     const ILoveToEatHotDogs = false;
-    // snake case!!
+    // Snake case
     const this_is_snake_case = 'cool';
-
-
-
-  </script>
+</script>
 </body>
 
 </html>
