@@ -68,3 +68,33 @@ const person = {
 
 //----------------------------------------------------
 // NULL and UNDEFINED
+/*
+
+// We don't know Cher's last name so it is undefined:
+const cher = {
+    first: 'cher'
+}
+// Whereas Raymond Teller legally changed his name to only Teller, therefore last is null:
+const teller = {
+    first: 'Raymond',
+    last: 'Teller'
+}
+
+teller.first = 'Teller';
+teller.last = null;
+*/
+
+//----------------------------------------------------
+// BOOLEANS
+/*
+
+let isDrawing = false;
+let age = 18;
+const ofAge = age > 19;
+console.log(ofAge);
+
+age = 100;
+
+*/
+
+//----------------------------------------------------
